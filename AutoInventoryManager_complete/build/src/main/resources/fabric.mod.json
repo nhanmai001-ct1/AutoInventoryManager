@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "autoinventory",
+  "version": "1.0.0",
+  "name": "Auto Inventory Manager",
+  "description": "Auto Inventory Manager mod for Fabric 1.19.4",
+  "authors": ["ChatGPT"],
+  "license": "MIT",
+  "entrypoints": {
+    "client": ["com.example.autoinventory.AutoInventoryMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "1.19.4"
+  }
+}

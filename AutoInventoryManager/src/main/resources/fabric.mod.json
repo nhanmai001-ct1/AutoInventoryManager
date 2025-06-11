@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "autoinventory",
+  "version": "1.0.0",
+  "name": "Auto Inventory Manager",
+  "description": "Tự động kiểm tra inventory và chuyển đồ khi đầy.",
+  "authors": ["ChatGPT"],
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.example.autoinventory.AutoInventoryMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": "1.19.4"
+  }
+}

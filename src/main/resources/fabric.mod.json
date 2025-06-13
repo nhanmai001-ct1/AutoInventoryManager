@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "autoinventorymanager",
+  "version": "1.0.0",
+  "name": "AutoInventoryManager",
+  "description": "Tự động quản lý inventory – gửi vào PV và lấp lại bằng item mẫu",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.example.autoinventorymanager.AutoInventoryManager"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*"
+  }
+}
